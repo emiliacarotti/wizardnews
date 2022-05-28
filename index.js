@@ -6,7 +6,7 @@ const app = express()
 const morgan = require('morgan')
 app.use(morgan('dev'));
 
-// Parsing middleware
+// Parsing Middleware
 app.use(express.json());
 
 // Static Files
